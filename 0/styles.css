@@ -27,7 +27,6 @@ body {
   display: flex;
   align-items: center;
   border-radius: 8px;
-
   border: 1px solid #121212;
 }
 .name-c {
@@ -171,9 +170,11 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.s-hire:hover {
-  opacity: 0.95;
+.s-hire:hover,
+:focus {
   cursor: pointer;
+  background-color: rgb(36, 36, 36);
+  color: #fff;
 }
 
 .s-rating {
@@ -188,9 +189,9 @@ body {
 }
 .s-rating :hover,
 :focus {
-  opacity: 0.95;
   cursor: pointer;
-  background-color: gainsboro;
+  color: rgb(44, 44, 44);
+  background-color: rgb(163, 163, 163);
 }
 .rst-c {
   display: flex;
@@ -261,7 +262,7 @@ body {
 .card-1 {
   height: 250px;
   width: 25%;
-  border: 1px solid gray;
+  border: 1px solid rgb(44, 44, 44);
 }
 .demo-x {
   display: flex;
@@ -345,6 +346,10 @@ body {
   height: auto;
   /* border: 1px solid gray; */
 }
+.ojk-align {
+  text-align: center;
+}
+
 .col-xl-1 {
   width: 8.33%;
 }
@@ -471,8 +476,9 @@ body {
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
   }
-  .s-hire:hover {
-    opacity: 0.95;
+  .s-hire,
+  .s-rating:hover,
+  :focus {
     cursor: pointer;
   }
 
@@ -483,9 +489,6 @@ body {
     font-size: 12.5px;
     letter-spacing: 0.2px;
     color: rgb(44, 44, 44);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-      sans-serif;
   }
   .rst-main {
     /* border: 1px solid black; */
@@ -561,7 +564,7 @@ body {
   .card-1 {
     height: 285px;
     width: 32%;
-    border: 1px solid gray;
+    border: 1px solid rgb(44, 44, 44);
   }
   .demo-x {
     display: flex;
@@ -652,137 +655,47 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
-    background-color: #faf9f6;
+    /* background-color: #faf9f6; */
+    background-color: #000;
   }
-
-  .par-head-c {
-    padding-top: 20px;
+  .h-p {
     height: auto;
     width: 100%;
-    /* border: 1px solid black; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .fl-head {
-    height: 55px;
-    border: 2px solid gainsboro;
-    display: flex;
-    border-radius: 10px;
-    align-items: center;
-    padding-right: 15px;
-  }
-
-  .name {
-    display: flex;
-    border-right: 2px solid gainsboro;
-    height: 65%;
-    width: 25%;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    padding-bottom: 5px;
-    color: rgb(44, 44, 44);
-    font-weight: 800;
-    /* border: 1px solid black; */
-  }
-
-  .links-c {
-    height: 110%;
-    border-right: none;
-    width: 55%;
-    display: flex;
-    padding-right: 5px;
-    align-items: start;
-    justify-content: start;
-    border: 1px solid black;
-  }
-  .mecadiv {
-    border: 1px solid purple;
-    height: auto;
-    width: auto;
-    padding: 6px 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    position: fixed;
+    /* border: 1px solid #fff; */
   }
-  .links-c-main {
-    height: 100%;
-    width: 95%;
-    display: inline-flex;
-    align-items: center;
-    padding-left: 0;
-    overflow-x: auto;
-    white-space: nowrap;
-    mask-image: linear-gradient(to right, black 85%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
-    mask-composite: intersect;
-    -webkit-mask-composite: destination-in;
-    border: 1px solid green;
-  }
-  /* .links-c-main::-webkit-scrollbar {
-    display: none;
-  } */
-
-  .links-c a {
-    color: rgb(44, 44, 44);
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 600;
-  }
-  .links-c a:hover {
-    color: purple;
-  }
-
-  .cash-in {
+  .header {
+    height: 4rem;
+    /* background: transparent; */
+    background: rgba(175, 175, 175, 0.041);
+    backdrop-filter: blur(8px);
+    width: 86%;
     display: flex;
     align-items: center;
-    justify-content: end;
-    border-left: 2px solid gainsboro;
-    height: auto;
-    width: 20%;
+    border-radius: 8px;
+    border: 1px solid #121212;
   }
-
-  .hxs {
-    padding: 8px 12px;
-    border: none;
-    background-color: rgb(44, 44, 44);
-    border-radius: 4.5px;
-    font-size: 12.5px;
-    letter-spacing: 0.2px;
-    color: #fff;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-      sans-serif;
-  }
-  .hxs:hover {
-    opacity: 0.95;
-    cursor: pointer;
-  }
-
   .sector-two {
     height: auto;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    /* border: 1px solid #fff; */
   }
   .divi-p {
     height: auto;
-    /* border: 1px solid orange; */
     display: flex;
     align-items: center;
-    /* gap: 100px; */
   }
 
   .divi-one {
     height: auto;
-    /* border: 1px solid slateblue; */
   }
   .divi-two {
     height: auto;
-    /* border: 1px solid slateblue; */
     display: flex;
     justify-content: end;
   }
@@ -790,11 +703,12 @@ body {
     justify-content: flex-start;
     height: auto;
     width: auto;
-    color: rgb(44, 44, 44);
+    color: gray;
   }
   .txt-b-1 {
-    width: 55%;
-    /* border: 1px solid slateblue; */
+    margin-top: 5rem;
+    width: 60%;
+    /* border: 1px solid #fff; */
     font-weight: 700;
     font-size: 30px;
     padding-bottom: 10px;
@@ -831,8 +745,9 @@ body {
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
   }
-  .s-hire:hover {
-    opacity: 0.95;
+  .s-hire,
+  .s-rating:hover,
+  :focus {
     cursor: pointer;
   }
 
@@ -843,14 +758,13 @@ body {
     font-size: 12.5px;
     letter-spacing: 0.2px;
     color: rgb(44, 44, 44);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-      sans-serif;
   }
-  .s-rating:hover {
-    opacity: 0.95;
-    cursor: pointer;
-    background-color: gainsboro;
+  .rst-main {
+    /* border: 1px solid black; */
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
   }
   .rst-c {
     padding-top: 30px;
@@ -861,7 +775,14 @@ body {
     justify-content: start;
     gap: 50px;
   }
-
+  .rst-main {
+    /* border: 1px solid blue; */
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+  }
   .uix-0 {
     display: flex;
     align-items: center;
@@ -878,48 +799,121 @@ body {
   .yr {
     font-size: 13px;
   }
+  .img-cIx {
+    height: 250px;
+    width: 250px;
+    border: 3px solid #121212;
+    border-radius: 50%;
+  }
 
   .img-cIx img {
     height: 270px;
     width: 250px;
     border-radius: 4.5px;
-    /* border: 8px solid gainsboro; */
+  }
+  .r-cards-p {
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    width: auto;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    gap: 15px;
+    width: auto;
+    border: 1px solid gray;
+  }
+  .card-1 {
+    height: 285px;
+    width: 32%;
+    border: 1px solid rgb(44, 44, 44);
+  }
+  .demo-x {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+    padding-bottom: 8px;
+    height: auto;
+    /* border: 1px solid gray; */
+  }
+  .demo {
+    font-weight: 800;
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid gray; */
+  }
+  .bixt {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: center;
+    color: gray;
+    /* border: 1px solid gray; */
+  }
+  .bixt p {
+    text-align: center;
+    margin-bottom: 5px;
+    /* border: 1px solid gray; */
+    width: 100%;
+  }
+  .ginx p {
+    text-align: left;
+    margin-bottom: 5px;
+    border: 1px solid gray;
+    width: 55%;
+  }
+  .jinx p {
+    text-align: left;
+    margin-bottom: 5px;
+    /* border: 1px solid gray; */
+    width: 60%;
   }
 
-  .col-md-1 {
+  .col-lg-1 {
     width: 8.33%;
   }
-  .col-md-2 {
+  .col-lg-2 {
     width: 16.66%;
   }
-  .col-md-3 {
+  .col-lg-3 {
     width: 25%;
   }
-  .col-md-lg {
+  .col-lg-4 {
     width: 33.33%;
   }
-  .col-md-5 {
+  .col-lg-5 {
     width: 41.66%;
   }
-  .col-md-6 {
+  .col-lg-6 {
     width: 50%;
   }
-  .col-md-7 {
+  .col-lg-7 {
     width: 58.33%;
   }
-  .col-md-8 {
+  .col-lg-8 {
     width: 66.66%;
   }
-  .col-md-9 {
+  .col-lg-9 {
     width: 74.99%;
   }
-  .col-md-10 {
+  .col-lg-10 {
     width: 83.33%;
   }
-  .col-md-11 {
+  .col-lg-11 {
     width: 91.66%;
   }
-  .col-md-12 {
+  .col-lg-12 {
     width: 100%;
   }
 }
@@ -1081,11 +1075,42 @@ body {
     border-radius: 4.5px;
     /* border: 8px solid gainsboro; */
   }
-
   .card-1 {
     height: 250px;
     width: 96%;
-    border: 1px solid gray;
+    border: 1px solid rgb(44, 44, 44);
+  }
+  .demo-x {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    justify-content: center;
+    padding-bottom: 8px;
+    height: auto;
+    /* border: 1px solid gray; */
+  }
+
+  .bixt {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: center;
+    color: gray;
+    /* border: 1px solid gray; */
+  }
+
+  .jinx p {
+    text-align: left;
+    margin-bottom: 5px;
+    /* border: 1px solid gray; */
+    width: 55%;
+  }
+  .ginx p {
+    text-align: left;
+    margin-bottom: 5px;
+    /* border: 1px solid gray; */
+    width: 60%;
   }
   .col-1 {
     width: 8.33%;
