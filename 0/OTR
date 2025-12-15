@@ -1,0 +1,94 @@
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <path fill="#9ca3af" d="M3 6.75C3 5.78 3.78 5 4.75 5h14.5C20.22 5 21 5.78 21 6.75v10.5c0 .97-.78 1.75-1.75 1.75H4.75C3.78 19 3 18.22 3 17.25V6.75Zm1.75-.25 7.25 4.53 7.25-4.53H4.75Zm14.5 11V8.53l-6.78 4.24a1 1 0 0 1-1.04 0L4.75 8.53V17.5h14.5Z"/>
+</svg> -->
+
+
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <path fill="#9ca3af" d="M4.98 3.5C3.88 3.5 3 4.38 3 5.48c0 1.08.86 1.97 1.96 1.97h.02c1.1 0 1.98-.89 1.98-1.97C6.96 4.38 6.1 3.5 4.98 3.5ZM3.5 21h2.96V9H3.5v12ZM9.5 9h2.84v1.64h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.6V21h-2.96v-6.38c0-1.52-.03-3.48-2.12-3.48-2.12 0-2.44 1.66-2.44 3.37V21H9.5V9Z"/>
+</svg> -->
+
+
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <path fill="#9ca3af" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.85 21 3 13.15 3 3a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2Z"/>
+</svg> -->
+
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <circle cx="12" cy="5" r="2" fill="#9ca3af" />
+                        <circle cx="12" cy="12" r="2" fill="#9ca3af" />
+                        <circle cx="12" cy="19" r="2" fill="#9ca3af" />
+                    </svg> -->
+
+one more tin man ive got two ctr buttons i dont want to it take me to a new page everytime i click on it  let it scroll down to the section, first btn  <section class="myp-p">
+        <div class="myp-c">
+            <div class="ptxt-h-c">
+                <div class="ptxt-h">My Projects</div>
+            </div>
+            <div class="ptxt-b">   second btn <section class="myp-p exp-X">
+        <div class="myp-c">
+            <div class="ptxt-h-c exp-space">
+                <div class="ptxt-h">Experience</div>
+            </div>
+            <div class="ptxt-b">
+                <div class="ptxt">
+                    <p>
+                        <b>Customer Service Representative
+                            House of Teas</b> – Lekki, Lagos
+                        October 2024 – March 2025
+
+                        Managed daily customer interactions across phone, chat, and walk-in service.
+
+                        Responded to inquiries, handled complaints, and processed orders.
+
+                        Maintained organized customer records and feedback reports.
+
+                        Demonstrated patience, clarity, and professionalism under pressure.
+
+                        Strengthened communication and documentation skills essential for cybersecurity roles.
+                    </p>
+                    <br>
+                    <p>
+                        <b>Customer Support Assistant
+
+                            Standards Organization of Nigeria (SON)</b>
+                        August 2023 – June 2024
+
+                        Assisted customers with product registration and certification inquiries.
+
+                        Directed clients to the right departments and provided accurate information.
+
+                        Logged complaints and tracked resolution progress.
+                        Supported data organization and weekly reporting tasks.
+
+                        Developed strong public communication, documentation, and service skills.
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="myp-p" id="projects">
+    <div class="myp-c">
+        <div class="ptxt-h-c">
+            <div class="ptxt-h">My Projects</div>
+        </div>
+        <div class="ptxt-b">
+            ...
+        </div>
+    </div>
+</section>
+for a link not btn
+<section class="myp-p exp-X" id="experience">
+    <div class="myp-c">
+        <div class="ptxt-h-c exp-space">
+            <div class="ptxt-h">Experience</div>
+        </div>
+        <div class="ptxt-b">
+            ...
+        </div>
+    </div>
+</section>
+<a href="#projects" class="ctr-btn">My Projects</a>
+<a href="#experience" class="ctr-btn">Experience</a>
