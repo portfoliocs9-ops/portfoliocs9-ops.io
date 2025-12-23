@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid #fff; */
+  border: 1px solid #fff;
   position: fixed;
 }
 .header {
@@ -26,6 +26,7 @@ body {
   /* width: 89%; */
   display: flex;
   align-items: center;
+  position: relative;
   border-radius: 8px;
   border: 1px solid #121212;
 }
@@ -202,12 +203,12 @@ body {
 }
 
 .rst-main {
-  /* border: 1px solid blue; */
+  /* border: 1px solid orangered; */
   height: auto;
   flex-wrap: wrap;
   display: flex;
   justify-content: start;
-  gap: 50px;
+  gap: 30px;
 }
 
 .uix-0 {
@@ -556,7 +557,7 @@ body {
     background-color: rgb(163, 163, 163);
   }
   .rst-main {
-    /* border: 1px solid black; */
+    /* border: 1px solid gray; */
     height: auto;
     flex-wrap: wrap;
     display: flex;
