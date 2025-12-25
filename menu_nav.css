@@ -71,7 +71,7 @@ body {
   height: 100%;
   width: 0;
   /* Start hidden */
-  border-right: 1px solid #121212;
+  /* border-right: 1px solid #121212; */
   background-color: transparent;
   color: #fff;
   overflow-x: hidden;
@@ -103,6 +103,7 @@ body {
 .side-nav.open {
   width: 50%;
   /* Expand on click */
+  border-right: 1px solid #121212;
 }
 
 .side-nav ul {
@@ -165,6 +166,7 @@ body.lock-scroll {
   .side-nav.open {
     width: 75%;
     /* border: 1px solid red; */
+    border-right: 1px solid #121212;
   }
   .side-nav {
     position: fixed;
