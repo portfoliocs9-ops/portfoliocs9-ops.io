@@ -1126,18 +1126,18 @@ body {
   }
 
   .rst-main {
-    /* border: 1px solid green; */
+    border: 1px solid green;
     height: auto;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .uix-0 {
     display: flex;
     align-items: center;
     text-align: center;
-    /* border: 1px solid gray; */
+    border: 1px solid gray;
     width: auto;
     height: auto;
     display: block;
@@ -1145,11 +1145,11 @@ body {
   }
   .yr-1 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     /* border: 1px solid #fff; */
   }
   .yr {
-    font-size: 15px;
+    font-size: 13px;
     /* border: 1px solid #fff; */
   }
 
