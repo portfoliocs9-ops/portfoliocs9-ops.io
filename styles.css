@@ -1035,6 +1035,7 @@ body {
   }
   .divi-two {
     height: auto;
+    padding-top: 50px;
     /* border: 1px solid slateblue; */
     display: flex;
     justify-content: center;

@@ -71,7 +71,6 @@ body {
   height: 100%;
   width: 0;
   /* Start hidden */
-  /* border-right: 1px solid #121212; */
   background-color: transparent;
   color: #fff;
   overflow-x: hidden;
@@ -215,7 +214,7 @@ body.lock-scroll {
     background-color: transparent;
     color: #fff;
     overflow-x: hidden;
-    border-right: 1px solid #121212;
+    border-right: none;
     transition: width 0.3s ease;
     z-index: 1100;
     padding-top: 0;
@@ -233,6 +232,7 @@ body.lock-scroll {
 @media (min-width: 1024px) {
   .side-nav.open {
     width: 30%;
+    border-right: 1px solid #121212;
   }
 }
 
