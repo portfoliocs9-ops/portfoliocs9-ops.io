@@ -1001,7 +1001,7 @@ body {
     background: transparent;
     /* background: rgba(59, 60, 66, 0.5); */
     backdrop-filter: blur(8px);
-    width: 93%;
+    width: 93.33%;
     display: flex;
     align-items: center;
     position: relative;
@@ -1144,11 +1144,12 @@ body {
   }
   .yr-1 {
     font-weight: 700;
-    font-size: 27px;
+    font-size: 20px;
     /* border: 1px solid #fff; */
   }
   .yr {
     font-size: 15px;
+    /* border: 1px solid #fff; */
   }
 
   .img-cIx img {

@@ -182,7 +182,7 @@ body.lock-scroll {
     background-color: transparent;
     color: #fff;
     overflow-x: hidden;
-    border-right: 1px solid #121212;
+    border-right: none;
     transition: width 0.3s ease;
     z-index: 1100;
     padding-top: 0;
