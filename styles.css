@@ -317,6 +317,29 @@ body {
   width: 86%;
   /* border: 1px solid gray; */
 }
+.bmxt {
+  height: auto;
+  /* border: 1px solid gray; */
+  width: 100%;
+  display: flex;
+  padding-bottom: 4px;
+  justify-content: center;
+}
+.bflex {
+  /* border: 1px solid #808080; */
+  width: 75%;
+  height: auto;
+}
+.cflex {
+  /* border: 1px solid #808080; */
+  width: 40%;
+  height: auto;
+}
+.dflex {
+  /* border: 1px solid #808080; */
+  width: 70%;
+  height: auto;
+}
 .ptxt-h-c,
 .ptxt-b {
   display: flex;
@@ -657,6 +680,21 @@ body {
     justify-content: center;
     color: gray;
     /* border: 1px solid gray; */
+  }
+  .bflex {
+    /* border: 1px solid #808080; */
+    width: 75%;
+    height: auto;
+  }
+  .cflex {
+    /* border: 1px solid #808080; */
+    width: 40%;
+    height: auto;
+  }
+  .dflex {
+    /* border: 1px solid #808080; */
+    width: 70%;
+    height: auto;
   }
   .bixt p {
     text-align: center;
@@ -1212,6 +1250,23 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+  .bflex {
+    /* border: 1px solid #808080; */
+    width: 60%;
+    height: auto;
+  }
+  .cflex {
+    /* border: 1px solid #808080; */
+    width: 35%;
+    height: auto;
+  }
+  .dflex {
+    display: flex;
+    text-wrap: wrap;
+    /* border: 1px solid #808080; */
+    width: 60%;
+    height: auto;
   }
   .col-1 {
     width: 8.33%;
