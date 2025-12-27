@@ -513,8 +513,8 @@ body {
   .divi-two {
     height: auto;
     display: flex;
-    justify-content: center;
-    border: 1px solid #fff;
+    justify-content: end;
+    /* border: 1px solid #fff; */
   }
   .txt-b {
     justify-content: flex-start;
