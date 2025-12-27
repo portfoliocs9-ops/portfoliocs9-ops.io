@@ -228,10 +228,10 @@ body {
   font-size: 13px;
 }
 .img-cIx {
-  height: 250px;
-  width: 250px;
-  border: 3px solid rgb(27, 27, 27);
-  border-radius: 50%;
+  height: auto;
+  width: auto;
+  /* border: 3px solid rgb(27, 27, 27);
+  border-radius: 50%; */
 }
 
 .img-cIx img {
@@ -508,11 +508,13 @@ body {
 
   .divi-one {
     height: auto;
+    /* border: 1px solid #fff; */
   }
   .divi-two {
     height: auto;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    border: 1px solid #fff;
   }
   .txt-b {
     justify-content: flex-start;
@@ -620,14 +622,14 @@ body {
     font-size: 13px;
   }
   .img-cIx {
-    height: 250px;
-    width: 250px;
-    border: 3px solid #121212;
-    border-radius: 50%;
+    height: auto;
+    width: auto;
+    /* border: 3px solid #121212; */
+    /* border-radius: 50%; */
   }
 
   .img-cIx img {
-    height: 270px;
+    height: 360px;
     width: 250px;
     border-radius: 4.5px;
   }
