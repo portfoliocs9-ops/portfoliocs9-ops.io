@@ -908,7 +908,7 @@ body {
   .img-cIx {
     height: 250px;
     width: 250px;
-    border: 3px solid #121212;
+    /* border: 3px solid #121212; */
     border-radius: 50%;
   }
 
@@ -922,7 +922,7 @@ body {
     padding-top: 80px;
     padding-bottom: 50px;
     width: auto;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -934,12 +934,13 @@ body {
     height: auto;
     gap: 15px;
     width: auto;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
   }
   .card-1 {
-    height: 285px;
+    height: auto;
     width: 32%;
-    border: 1px solid rgb(44, 44, 44);
+    padding-bottom: 20px;
+    /* border: 1px solid rgb(44, 44, 44); */
   }
   .demo-x {
     display: flex;
@@ -1085,8 +1086,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
-    color: rgb(44, 44, 44);
-    /* border: 1px solid green; */
+    color: grey;
+    border: 1px solid green;
   }
   .txt-b-1-c {
     height: auto;
