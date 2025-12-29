@@ -1087,7 +1087,7 @@ body {
     justify-content: center;
     height: auto;
     color: grey;
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
   .txt-b-1-c {
     height: auto;
