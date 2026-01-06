@@ -1047,7 +1047,7 @@ body {
     align-items: center;
     position: relative;
     border-radius: 8px;
-    border: 1px solid #121212;
+    border: 1px solid rgb(44, 44, 44);
   }
 
   .sector-two {
@@ -1086,6 +1086,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
+    padding-top: 10px;
     color: grey;
     /* border: 1px solid green; */
   }
@@ -1226,7 +1227,7 @@ body {
     height: auto;
     width: 96%;
     border: 1px solid rgb(44, 44, 44);
-    /* border-radius: 8px; */
+    border-radius: 2px;
     padding-bottom: 20px;
   }
   .demo-x {
